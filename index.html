@@ -3,7 +3,11 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="enableAutoplay()">
+    
+<audio id="nasty" controls="controls">
+  <source src="Music/makeitnasty.mp3" type="audio/mpeg">
+</audio>
 
 <div class="slideshow">
     <img class="mySlides" src="Images/image-01.png" style="width:100%">
@@ -26,6 +30,14 @@ function carousel() {
     if (slideIndex > x.length) {slideIndex = 1} 
     x[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 100); // Change image every .02 seconds
+}
+</script>
+    
+<script>
+var audio = document.getElementById("nasty");
+function enableAutoplay() {
+    audio.autoplay = true;
+    audio.load();
 }
 </script>
     
