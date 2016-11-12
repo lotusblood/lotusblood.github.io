@@ -9,3 +9,14 @@ img {
     background-repeat: repeat-y;
 }
 
+div.transbox {
+    margin: 0px;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
