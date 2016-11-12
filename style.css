@@ -5,5 +5,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    background-image: url("Images/roast.gif");
+    background-repeat: repeat-y;
 }
 
