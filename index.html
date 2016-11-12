@@ -5,33 +5,12 @@
 </head>
 <body onload="enableAutoplay()">
     
-<audio id="nasty" controls="controls">
-  <source src="Music/makeitnasty.mp3" type="audio/mpeg">
+<audio id="thankful" controls="controls">
+  <source src="Music/thankful.mp3" type="audio/mpeg">
 </audio>
 
-<div class="slideshow">
-    <img class="mySlides" src="Images/image-01.png" style="width:100%">
-    <img class="mySlides" src="Images/image-02.png" style="width:100%">
-    <img class="mySlides" src="Images/image-03.png" style="width:100%">
-    <img class="mySlides" src="Images/image-04.png" style="width:100%">
-</div>
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
 
-<script>
-var slideIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 100); // Change image every .02 seconds
-}
-</script>
     
 <script>
 var audio = document.getElementById("nasty");
