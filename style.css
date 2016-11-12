@@ -4,19 +4,19 @@ body {
 
 img {
     max-width: 100%;
-    height: auto;
-    background-image: url("Images/roast.gif");
+    background-image: url('Images/roast.gif');
     background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-div.transbox {
-    margin: 0px;
-    background-color: #ffffff;
-    opacity: 0.6;
+slideshow {
+    max-width: 80%
+    height: auto;
 }
 
-div.transbox p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
+class {
+    margin-bottom: 100px;
+    max-width: 40%;
+
 }

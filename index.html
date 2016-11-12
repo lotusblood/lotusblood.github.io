@@ -6,19 +6,62 @@
 <body onload="enableAutoplay()">
     
 <audio id="thankful" controls="controls">
-  <source src="Music/thankful.mp3" type="audio/mpeg">
+    <source src="Music/thankful.mp3" type="audio/mpeg">
 </audio>
-
-<div class="img">
-  <img src="/Images/roast.gif" alt="Roast">
+    
+<div class="slideshow">
+    <img class="mySlides" src="Images/thanksgiving-01.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-02.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-03.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-04.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-05.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-06.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-07.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-08.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-09.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-10.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-11.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-12.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-13.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-14.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-15.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-16.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-17.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-18.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-19.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-20.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-20.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-20.png" style="width:100%">
+    <img class="mySlides" src="Images/thanksgiving-20.png" style="width:100%">
 </div>
     
-<div class="background">
-  <div class="transbox">
-    <p>This is some text that is placed in the transparent box.</p>
-  </div>
-</div>   
-    
+<a href="https://goo.gl/forms/BLm2wPw2uGM1IedG3">    
+    <div class="RSVP">
+        <img src="/Images/rsvpbox-01.png" alt="RSVP">
+    </div>
+</a>
+
+<div class="img"></div>
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel,400); // Change image every .02 seconds
+}
+</script>
+
+
 <script>
 var audio = document.getElementById("thankful");
 function enableAutoplay() {
