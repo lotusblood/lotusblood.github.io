@@ -13,9 +13,9 @@ body {
     height: auto;
 }
 
-#RSVP {
+#RSVP img {
     margin: auto;
-    width: 80%;
+    max-width: 100px;
     height: auto;
 }
 
