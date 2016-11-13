@@ -15,10 +15,8 @@ body {
 }
 
 #RSVP {
-    display: block;
-    margin: auto;
     margin-bottom: 100px;
-    max-width: 400px;
+    width: 40px;
 }
 
 #thankful { 
