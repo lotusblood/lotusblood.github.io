@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-background {
+#background {
     max-width: 100%;
     background-image: url('Images/roast.gif');
     background-repeat: repeat-y;
@@ -10,12 +10,12 @@ background {
     background-position: center;
 }
 
-.slideshow {
+#slideshow {
     max-width: 80%
     height: auto;
 }
 
-.RSVP {
+#RSVP {
     display: block;
     margin: auto;
     margin-bottom: 100px;
