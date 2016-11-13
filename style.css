@@ -1,5 +1,8 @@
+body {
+    background-color: black;
+}
+
 #background {
-    max-width: 100%;
     background-image: url('Images/roast.gif');
     background-repeat: repeat-y;
     background-attachment: fixed;
