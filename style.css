@@ -1,16 +1,15 @@
 body {
     background-color: black;
-}
-
-#background {
     background-image: url('Images/roast.gif');
     background-repeat: repeat-y;
     background-attachment: fixed;
     background-position: center;
 }
 
+
 #slideshow {
-    max-width: 80%
+    margin: auto;
+    width: 80%;
     height: auto;
 }
 
