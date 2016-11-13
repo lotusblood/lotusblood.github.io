@@ -13,11 +13,10 @@ body {
     height: auto;
 }
 
-a {
-    border-radius: 4px;
-    padding: 5px;
-    margin-bottom: 100px;
-    max-width: 40px;
+#RSVP {
+    margin: auto;
+    width: 80%;
+    height: auto;
 }
 
 #thankful { 
