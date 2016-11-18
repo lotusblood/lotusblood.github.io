@@ -1,3 +1,5 @@
+/* @pjs font="jersey.ttf"; */
+/* @pjs font="keyboard.ttf"; */
 PFont font;
 PFont font2;
 
@@ -5,8 +7,10 @@ void setup() {
   size(500,500);
   smooth();
   noStroke();
-  font = loadFont("JerseyM54-48.vlw");
-  font2 = loadFont("AvenirNext-Medium-20.vlw");
+  String[] fontList = PFont.list();
+  println(fontList);
+  font = createFont("JerseyM54",48);
+  font2 = createFont("AvenirNext-Medium",20);
   noiseDetail(4);
 }
 
