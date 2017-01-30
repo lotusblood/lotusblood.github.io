@@ -1,14 +1,13 @@
-html, body {
-    height: 100%;
-    background-color: rgb(186,12,47);
-}
-
-html {
-    display: table;
-    margin: auto;
-}
-
 body {
-    display: table-cell;
-    vertical-align: middle;
+    background-color: black;
+}
+
+.slideshow
+{
+     position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
 }
